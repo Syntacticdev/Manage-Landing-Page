@@ -1,48 +1,50 @@
-.intro_board,
-.b2 {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-  grid-gap: 4em;
-  margin-bottom: 100px;
-  background: url("/images/bg-tablet-pattern.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: -100px;
-}
+@media screen and (min-width: 480px) {
+  .intro_board,
+  .b2 {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 4em;
+    margin-bottom: 100px;
+    background: url("/images/bg-tablet-pattern.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -100px;
+  }
 
-.motto_wrapper {
-  width: 100%;
-}
+  .motto_wrapper {
+    width: 100%;
+  }
 
-.motto {
-  font-size: 60px;
-  margin-bottom: 40px;
-}
+  .motto {
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
 
-.sub_motto {
-  font-size: 20px;
-  width: 70%;
-}
+  .sub_motto {
+    font-size: 20px;
+    width: 70%;
+  }
 
-.btnwrapper {
-  margin: 20px 0;
-}
+  .btnwrapper {
+    margin: 20px 0;
+  }
 
-.one {
-  width: 60%;
-}
+  .one {
+    width: 60%;
+  }
 
-.one p {
-  width: 90%;
-  margin-top: 20px;
-}
+  .one p {
+    width: 90%;
+    margin-top: 20px;
+  }
 
-.ill {
-  width: 100%;
-}
+  .ill {
+    width: 100%;
+  }
 
-.tes_title_label {
-  text-align: center;
+  .tes_title_label {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -125,5 +127,11 @@
 @media (max-width: 920px) {
   .container {
     padding: 0 40px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .btnwrapper {
+    margin: 40px;
   }
 }

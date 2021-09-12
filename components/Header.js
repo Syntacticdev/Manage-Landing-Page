@@ -7,10 +7,6 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [currentWidth, setcurrentWidth] = useState();
-  const act = {
-    display: "flex",
-    zIndex: 10,
-  };
 
   useEffect(() => {
     window.addEventListener("resize", () => {
@@ -33,7 +29,6 @@ const Header = () => {
         </a>
       </Link>
       <nav className={!isOpen ? styles.nav : styles.show}>
-        {console.log(isOpen)}
         <li>
           <Link href="/pricing">
             <a className="nav-list">Pricing</a>

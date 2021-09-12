@@ -34,6 +34,15 @@
   }
 }
 
+@media screen and (max-width: 810px) {
+  .subForm input,
+  .subForm button {
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 5px;
+  }
+}
+
 @media screen and (max-width: 599px) {
   .form {
     margin: 0 auto;

@@ -93,6 +93,34 @@
 .svg:hover {
   fill: red;
 }
+
+@media screen and (max-width: 810px) {
+  .footer {
+    padding: 20px 50px;
+  }
+
+  .section_2 {
+    grid-template-columns: 25% 25% 50%;
+  }
+
+  .r3 {
+    margin-left: 0;
+  }
+
+  .getstarted_btn_f {
+    background-color: aliceblue;
+    color: hsl(12, 88%, 59%);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 40px;
+    margin: 20px 0;
+  }
+
+  .copyright_text {
+    padding: 0;
+    font-size: 13px;
+  }
+}
 @media screen and (max-width: 420px) {
   .section_1 {
     padding: 50px;
@@ -107,6 +135,15 @@
   }
   .r3 {
     margin: 0;
+  }
+  .getstarted_btn_f {
+    background-color: aliceblue;
+    color: hsl(12, 88%, 59%);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 40px;
+    margin: 20px 0;
   }
 
   .subForm input,
@@ -172,7 +209,11 @@
 
   .copyright_text {
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 0;
     padding: 20px 0;
+    width: 100%;
+    text-align: center;
   }
 }

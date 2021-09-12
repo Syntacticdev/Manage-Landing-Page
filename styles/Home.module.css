@@ -45,7 +45,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 720px) {
   .motto {
     font-size: 40px;
   }

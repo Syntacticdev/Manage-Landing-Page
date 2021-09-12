@@ -1,0 +1,41 @@
+.card_wrapper {
+  margin-bottom: 30px;
+}
+.card_head {
+  display: flex;
+}
+
+.card_badge {
+  margin: 0 10px;
+  padding: 5px 15px;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.card_body {
+  margin-left: 70px;
+}
+
+@media screen and (max-width: 599px) {
+  .card {
+    position: relative;
+  }
+
+  .card_title {
+    margin-left: 10px;
+  }
+  .card_head {
+    background: hsl(13, 100%, 96%);
+    border-radius: 15px;
+  }
+
+  .card_badge {
+    margin: 0;
+  }
+
+  .card_body {
+    margin: 10px 0;
+  }
+}
